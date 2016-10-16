@@ -7,6 +7,7 @@
 In the "good-old-days" you may have applied configuration management changes to your environments, but with the "DevOps" movement you may (I hope) have automated these mundane, repetative tasks using som kind of scripting.
 
 While there is nothing absolutely WRONG with a clean, simple Bash-script to re-configure your application server configuration it is nothing I can recommend because:
+
 1. it is not declarative, i.e. it is up to you to make the script idempotent (which is easy to get wrong)
 1. it does not provide good abstractions which means you have to invent them (ok, sometimes this is good thing!)
 1. it does not have a lot of standardized modules that take care of well-defined tasks
@@ -31,6 +32,7 @@ If so, Ansible is for you!
 
 ## Prerequisites
 In order to run these exercises you first need to install
+
 1. Vagrant (manages your virtual machines), which requires a provider like
 1. VirtualBox (runs your virtual machines), which you configure with
 1. Ansible (provisions your machines with configuration & software), which requires
@@ -39,6 +41,7 @@ In order to run these exercises you first need to install
 	`$ python --version` should output something like `Python 2.7.10`
 
 Assuming you have a Mac and none of the above, I recommend the following installation procedure:
+
 1. Install Homebrew: `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 1. Install pip (Python install packet manager): `$ brew install pip`
 1. Install Ansible 1.9.6 (yes, there are newer versions): `$ sudo pip install ansible=1.9.6`
