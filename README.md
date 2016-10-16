@@ -51,6 +51,6 @@ Bingo, all done!
 ## Lab Environment
 This repository contains an simulated environment consisting of 5 hosts which can be configured to do whatever you want. In order to get the exercise environment up and running you need:
 1. Start multiple hosts that simulates a (small) server farm: `$ vagrant up`
-2. Verify the environment by running your first Ansible commant: `$ ansible all -m ping`
+2. Verify the environment by running your first Ansible command: `$ ansible servers -i webservers -m ping`
 
 Time for a beer!
