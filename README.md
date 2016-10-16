@@ -36,9 +36,7 @@ In order to run these exercises you first need to install
 1. Vagrant (manages your virtual machines), which requires a provider like
 1. VirtualBox (runs your virtual machines), which you configure with
 1. Ansible (provisions your machines with configuration & software), which requires
-1. Python & SSH
-
-	`$ python --version` should output something like `Python 2.7.10`
+1. Python & SSH: `$ python --version` should output something like `Python 2.7.10`
 
 Assuming you have a Mac and none of the above, I recommend the following installation procedure:
 
