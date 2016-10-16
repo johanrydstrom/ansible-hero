@@ -24,12 +24,6 @@ In my mind, Ansible hits the sweet-spot by providing the right abstraction on sc
 
 If so, Ansible is for you!
 
-## Who uses it
-* Videoplaza/Ooyala
-* iZettle
-* Com Hem
-* ...
-
 ## Prerequisites
 In order to run these exercises you first need to install
 
