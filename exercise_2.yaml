@@ -1,0 +1,18 @@
+# http://docs.ansible.com/ansible/intro_inventory.html
+- name: "Practice using Playbooks and the Inventory!"
+  hosts: all
+  tasks:
+    - name: "Ping all servers"
+      ping: # module ping takes no parameters
+
+- name: "Ping webservers"
+  hosts: webservers
+  tasks:
+    - name: "Ping webservers"
+      ping: # module ping takes no parameters
+
+- name: "Ping loadbalancers"
+  hosts: loadbalancers
+  tasks:
+    - name: "Ping loadbalancers"
+      ping: # module ping takes no parameters

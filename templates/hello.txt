@@ -1,0 +1,1 @@
+{{ ansible_hostname }}: Hello {{ name }}, I am a one of the {{ group_name }}!

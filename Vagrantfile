@@ -5,8 +5,8 @@ hosts = [
    {name: "server01", ip_address: "192.168.100.101"},
    {name: "server02", ip_address: "192.168.100.102"},
    {name: "server03", ip_address: "192.168.100.103"},
-#   {name: "server04", ip_address: "192.168.100.104"},
-#   {name: "server05", ip_address: "192.168.100.105"}
+   {name: "server04", ip_address: "192.168.100.104"},
+   {name: "server05", ip_address: "192.168.100.105"}
 ]
 
 Vagrant.configure("2") do |config|

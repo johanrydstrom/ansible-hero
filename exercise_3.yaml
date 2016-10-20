@@ -1,0 +1,6 @@
+# http://docs.ansible.com/ansible/playbooks_intro.html#handlers-running-operations-on-change
+- name: "Play with variables & Jinja2 templating"
+  hosts: all
+  tasks:
+  - name: "Template an existing file with variables"
+    template: src=templates/hello.txt dest=~/

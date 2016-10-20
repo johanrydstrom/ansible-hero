@@ -1,0 +1,15 @@
+# http://docs.ansible.com/ansible/playbooks_intro.html
+- name: "Practice using Playbooks with plays!"
+  hosts: all
+  tasks:
+  - name: "Ping servers"
+    ping: # module ping takes no parameters
+
+  - name: "Send an arbitrary commands to servers" # add -v (or more) to ansible-playbook to see the command run when it has no side-effects)
+    command: echo "Hello World"
+
+  - name: "Copy contents to a file"
+    copy: content="Hello Ansible!" dest=~/hello.txt
+
+  - name: "Copy an existing file"
+    copy: src=files/hello.txt dest=~/

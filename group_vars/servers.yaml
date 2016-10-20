@@ -1,0 +1,2 @@
+# Here you can define variables which will be applied only when targeting a group name servers
+name: Ansible
