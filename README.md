@@ -57,7 +57,8 @@ This is the machine that is controlling all other machines (i.e. your laptop). I
 * Python & SSH: `$ python --version` should output something like `Python 2.7.10`
 
 To install Ansible, perform the following
-1. If you don't have pip (Python install packet manager) already: `$ brew install pip`
+
+1. If you don't have pip (Python install packet manager) already: `$ sudo easy_install pip`
 1. Install Ansible 1.9.6 (yes, there are newer versions): `$ sudo pip install ansible==1.9.6`
 
 Verify that your control machine can run Ansible and use the Lab Environment by running your first Ansible ad-hoc command: `$ ansible all -m ping`
@@ -73,4 +74,6 @@ Control machine done; Time for a beer!
    * http://docs.ansible.com/ansible/intro_installation.html#latest-releases-via-pip
    * http://docs.ansible.com/ansible/ping_module.html
    * http://docs.ansible.com/ansible/playbooks_checkmode.html
+   * http://docs.ansible.com/ansible/playbooks_filters.html
+   * http://docs.ansible.com/ansible/intro_configuration.html
 * https://github.com/jlund/streisand
