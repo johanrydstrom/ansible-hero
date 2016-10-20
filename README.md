@@ -29,6 +29,7 @@ If so, Ansible is for you!
 The exercises in this lab are meant as a first step in your journey towards better automation and configuration management!
 
 ## Prerequisites
+http://xkcd.com/1654/
 ###1. Lab Environment
 This repository contains an simulated environment consisting of 5 hosts. The hosts are small Ubuntu (`minimal/trusty64`) virtual machines, in this case running in VirtualBox. 
 
