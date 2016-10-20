@@ -1,0 +1,14 @@
+[servers]
+server01 ansible_ssh_user=vagrant ansible_ssh_port=22 ansible_ssh_host=192.168.100.101 ansible_ssh_private_key_file=~/.vagrant.d/insecure_private_key
+server02 ansible_ssh_user=vagrant ansible_ssh_port=22 ansible_ssh_host=192.168.100.102 ansible_ssh_private_key_file=~/.vagrant.d/insecure_private_key
+server03 ansible_ssh_user=vagrant ansible_ssh_port=22 ansible_ssh_host=192.168.100.103 ansible_ssh_private_key_file=~/.vagrant.d/insecure_private_key
+#server04 ansible_ssh_user=vagrant ansible_ssh_port=22 ansible_ssh_host=192.168.100.104 ansible_ssh_private_key_file=~/.vagrant.d/insecure_private_key
+#server05 ansible_ssh_user=vagrant ansible_ssh_port=22 ansible_ssh_host=192.168.100.105 ansible_ssh_private_key_file=~/.vagrant.d/insecure_private_key
+
+[webservers]
+server01
+server02
+server03
+
+[loadbalancers]
+#server0[4:5]
